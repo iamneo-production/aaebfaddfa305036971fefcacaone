@@ -16,21 +16,21 @@ public class MenuService {
     private int nextId = 1;
 
     
-    public boolean addMenuItem(MenuItem menuItem) {
+    // public boolean addMenuItem(MenuItem menuItem) {
        
-         if (menuItems.containsKey(menuItem.getId())) {
-            return false;
-        }
+    //      if (menuItems.containsKey(menuItem.getId())) {
+    //         return false;
+    //     }
        
-        menuItem.setId(nextId++);
-        menuItems.put(menuItem.getId(), menuItem);
-        return true;
-    }
+    //     menuItem.setId(nextId++);
+    //     menuItems.put(menuItem.getId(), menuItem);
+    //     return true;
+    // }
 
  
 
 
-    public boolean deleteMenuItem(int id) {
-        return menuItems.remove(id) != null;
-    }
+    // public boolean deleteMenuItem(int id) {
+    //     return menuItems.remove(id) != null;
+    // }
 }
