@@ -24,9 +24,9 @@ public class MenuController {
     // }
 
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Boolean> deleteMenuItem(@PathVariable int id) {
-        boolean success = menuService.deleteMenuItem(id);
-        return ResponseEntity.status(HttpStatus.OK).body(success);
-    }
+    // @DeleteMapping("/{id}")
+    // public ResponseEntity<Boolean> deleteMenuItem(@PathVariable int id) {
+    //     boolean success = menuService.deleteMenuItem(id);
+    //     return ResponseEntity.status(HttpStatus.OK).body(success);
+    // }
 }
